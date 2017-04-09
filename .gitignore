@@ -5,3 +5,6 @@ bin/
 */test-output
 */target
 */test-classes
+test-output
+test-classes
+target
