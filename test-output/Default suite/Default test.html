@@ -1,0 +1,476 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>65/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 29 21:21:56 CEST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>20 seconds (20450 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.dicontainer.DiContainerTest.testDiContainerInitializeShouldNotThrowAnyExceptions()'><b>testDiContainerInitializeShouldNotThrowAnyExceptions</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.dicontainer.DiContainerTest</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.dicontainer.DiContainerTest@7b49cea0</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.exportimport.ExportImportIT.testExportThenImportShouldLoadSameDataAsExported()'><b>testExportThenImportShouldLoadSameDataAsExported</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.exportimport.ExportImportIT</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.exportimport.ExportImportIT@7fac631b</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion()'><b>testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: resu, SttAnnotation</td>
+<td></td>
+<td>8</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion()'><b>testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: ra, result</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion()'><b>testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: Stt, result</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion()'><b>testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: result., result</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion()'><b>testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: result., SttAnnotation</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion()'><b>testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: , getClass()</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion()'><b>testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: ., getClass()</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion()'><b>testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: {
+SttType localVariable;
+}
+loc, localVariable</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.execution.GetterGeneratorExecutionIT.testGenerateShouldGenerateExpectedResult()'><b>testGenerateShouldGenerateExpectedResult</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.execution.GetterGeneratorExecutionIT</td>
+<td></td>
+<td>1</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.execution.GetterGeneratorExecutionIT@2b9627bc</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT.testInitializeShouldCreateScriptIfDidNotExistEarlier()'><b>testInitializeShouldCreateScriptIfDidNotExistEarlier</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT@61f8bee4</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT.testInitializeShouldCreateScriptWithOriginalNameWhenScriptWasModifiedAndScriptDoesNotExistWithOriginalCommandName()'><b>testInitializeShouldCreateScriptWithOriginalNameWhenScriptWasModifiedAndScriptDoesNotExistWithOriginalCommandName</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT@61f8bee4</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT.testInitializeShouldCreateScriptWithUniqueNameWhenScriptWasModifiedAndScriptAlreadyExistWithOriginalCommandName()'><b>testInitializeShouldCreateScriptWithUniqueNameWhenScriptWasModifiedAndScriptAlreadyExistWithOriginalCommandName</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT@61f8bee4</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT.testInitializeShouldNotCallScriptRepositoryWhenUserHasLatestVersion()'><b>testInitializeShouldNotCallScriptRepositoryWhenUserHasLatestVersion</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT@61f8bee4</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT.testInitializeShouldNotCreateScriptIfAlreadyCreatedInCurrentVersion()'><b>testInitializeShouldNotCreateScriptIfAlreadyCreatedInCurrentVersion</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT@61f8bee4</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT.testInitializeShouldNotThrowAnyExceptionIfInternallyExceptionOccurres()'><b>testInitializeShouldNotThrowAnyExceptionIfInternallyExceptionOccurres</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT@61f8bee4</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT.testInitializeShouldNowThrowException()'><b>testInitializeShouldNowThrowException</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT@61f8bee4</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT.testInitializeShouldUpdateEarlierRevisionWhenItWasNotModifiedByUser()'><b>testInitializeShouldUpdateEarlierRevisionWhenItWasNotModifiedByUser</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT@61f8bee4</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT.testInitializeShouldUpdateScriptWhenUserHasEarlierNotModifiedRevision()'><b>testInitializeShouldUpdateScriptWhenUserHasEarlierNotModifiedRevision</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT@61f8bee4</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest<br>Parameters: for (int i = 0; i < 10; ++i);, {i=int}</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest@5b87ed94</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest<br>Parameters: Integer asd = 3;
+for (asd = 0; i < 10; ++i);, {asd=Integer}</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest@5b87ed94</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest<br>Parameters: Integer asd = 3;
+for (int i = 0; i < 10; ++i);, {asd=Integer, i=int}</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest@5b87ed94</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest<br>Parameters: Integer asd = 3;
+for (int i = 0; i < 10; ++i) {
+String h = "a";
+}, {asd=Integer, h=String, i=int}</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest@5b87ed94</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest<br>Parameters: Integer asd = 3;
+for (int i = 0; i < 10; ++i) {
+String h;
+}, {asd=Integer, h=String, i=int}</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest@5b87ed94</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.InnerBlockRemoverSourceProcessorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.InnerBlockRemoverSourceProcessorTest<br>Parameters: if () {
+  if () { asd }
+  if() {
+     a, if () {
+  if () 
+  if() {
+     a</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.InnerBlockRemoverSourceProcessorTest@65e2dbf3</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.InnerBlockRemoverSourceProcessorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.InnerBlockRemoverSourceProcessorTest<br>Parameters: int a; {
+int b; {
+   }
+}
+int b;, int a; 
+int b;</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.InnerBlockRemoverSourceProcessorTest@65e2dbf3</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest<br>Parameters: for (int i = 0; i < 10; ++i) {
+ System.out.println(i) // this
+}, for (int i = 0; i < 10; ++i) {
+ System.out.println(i) 
+}</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest@887af79</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest<br>Parameters: for (int i = 0; i < 10; ++i) {
+ System/*.out*/.println(i) // this
+}, for (int i = 0; i < 10; ++i) {
+ System.println(i) 
+}</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest@887af79</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest<br>Parameters: for (int i = 0; i < 10; ++i) {
+ System.out.println("i") // this
+}, for (int i = 0; i < 10; ++i) {
+ System.out.println() 
+}</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest@887af79</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest<br>Parameters: for (int i = 0; i < 10; ++i) {
+ System.out.println('i') // this
+}, for (int i = 0; i < 10; ++i) {
+ System.out.println() 
+}</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest@887af79</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest<br>Parameters: for (int i = 0; i < 10; ++i) {
+ System.out.println('i') /**/
+}, for (int i = 0; i < 10; ++i) {
+ System.out.println() 
+}</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest@887af79</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest<br>Parameters: //for (int i = 0; i < 10; ++i) {
+ System.out.println('i') /**/
+}, 
+ System.out.println() 
+}</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest@887af79</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest<br>Parameters: for (int i = 0; i < 10; ++i) {
+ String a = /* asd" */ "StringContent"
+}, for (int i = 0; i < 10; ++i) {
+ String a =  
+}</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest@887af79</td></tr>
+<tr>
+<td title='com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest.testSimple()'><b>testSimple</b><br>Test class: com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest<br>Parameters: for (int i = 0; i < 10; ++i) {
+ String a = /* asd" */"StringContent"
+}, for (int i = 0; i < 10; ++i) {
+ String a = 
+}</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest@887af79</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT.testSimpleStringProgramWithExpectedResult()'><b>testSimpleStringProgramWithExpectedResult</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT<br>Parameters: test, test</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT@4f970963</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT.testSimpleStringProgramWithExpectedResult()'><b>testSimpleStringProgramWithExpectedResult</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT<br>Parameters: hello
+world, hello
+world</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT@4f970963</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT.testSimpleStringProgramWithExpectedResult()'><b>testSimpleStringProgramWithExpectedResult</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT<br>Parameters: # for (int i = 0; i < 3; ++i)
+${i}, 012</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT@4f970963</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT.testSimpleStringProgramWithExpectedResult()'><b>testSimpleStringProgramWithExpectedResult</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT<br>Parameters: # for (int i = 0; i < 3; ++i) { 
+${i}
+ # }, 0
+1
+2
+</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT@4f970963</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT.testSimpleStringProgramWithExpectedResult()'><b>testSimpleStringProgramWithExpectedResult</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT<br>Parameters: ${currentClass.getElementName()}, mockName</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT@4f970963</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT.testSimpleStringProgramWithExpectedResult()'><b>testSimpleStringProgramWithExpectedResult</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT<br>Parameters: currentClass.getElementName(), currentClass.getElementName()</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT@4f970963</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT.testSimpleStringProgramWithExpectedResult()'><b>testSimpleStringProgramWithExpectedResult</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT<br>Parameters: #result.append("hey"), hey</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT@4f970963</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT.testSimpleStringProgramWithExpectedResult()'><b>testSimpleStringProgramWithExpectedResult</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT<br>Parameters: #String test = "hey";
+ # result.append(test), hey</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT@4f970963</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT.testSimpleStringProgramWithExpectedResult()'><b>testSimpleStringProgramWithExpectedResult</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT<br>Parameters: This is the ${currentClass.getElementName()} class, This is the mockName class</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT@4f970963</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT.testSimpleStringProgramWithExpectedResult()'><b>testSimpleStringProgramWithExpectedResult</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT<br>Parameters: #if (currentClass.getElementName().equals("mockName")) { 
+True
+ # }, True
+</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT@4f970963</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT.testSimpleStringProgramWithExpectedResult()'><b>testSimpleStringProgramWithExpectedResult</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT<br>Parameters: #if (!currentClass.getElementName().equals("mockName")) {
+True
+ # } else {
+False
+#}, False
+</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT@4f970963</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT.testSimpleStringProgramWithExpectedResult()'><b>testSimpleStringProgramWithExpectedResult</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT<br>Parameters: Is it mockName: ${currentClass.getElementName().equals("mockName") ? "True" : "False" }?, Is it mockName: True?</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT@4f970963</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: , result</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: resu, result</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: SttAnnot, SttAnnotation</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: res, result</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: result, result</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: Stt, SttAnnotation</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: Stt, SttType</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: Stt, SttMethod</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: Stt, SttJavaProject</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: Stt, SttField</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: result., getExposedName()</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: result., append(String)</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: result.getExposedName()., toString()</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: globalConfig.S, SCRIPT_NAME</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: globalConfig.s, SCRIPT_NAME</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: codeForm, codeFormatter</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: codeFormatter.form, formatCurrentCompilationUnit()</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+<tr>
+<td title='com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT.testSuccesfulContentAssistAtEndOfUserTypeString()'><b>testSuccesfulContentAssistAtEndOfUserTypeString</b><br>Test class: com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT<br>Parameters: SttType localVariable;
+loc, localVariable</td>
+<td></td>
+<td>0</td>
+<td>com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT@67b92f0a</td></tr>
+</table><p>
+</body>
+</html>

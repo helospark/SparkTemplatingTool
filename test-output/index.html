@@ -1,0 +1,2210 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">65 methods,   65 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.dicontainer.DiContainerTest" hash-for-method="testDiContainerInitializeShouldNotThrowAnyExceptions">testDiContainerInitializeShouldNotThrowAnyExceptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.exportimport.ExportImportIT" hash-for-method="testExportThenImportShouldLoadSameDataAsExported">testExportThenImportShouldLoadSameDataAsExported</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(., getClass())">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(., getClass())</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(resu, SttAnnotation)">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(resu, SttAnnotation)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion({
+SttType localVariable;
+}
+loc, localVariable)">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion({
+SttType localVariable;
+}
+loc, localVariable)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(result., SttAnnotation)">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(result., SttAnnotation)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(ra, result)">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(ra, result)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(result., result)">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(result., result)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(, getClass())">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(, getClass())</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(Stt, result)">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(Stt, result)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.execution.GetterGeneratorExecutionIT" hash-for-method="testGenerateShouldGenerateExpectedResult">testGenerateShouldGenerateExpectedResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT" hash-for-method="testInitializeShouldCreateScriptIfDidNotExistEarlier">testInitializeShouldCreateScriptIfDidNotExistEarlier</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT" hash-for-method="testInitializeShouldCreateScriptWithOriginalNameWhenScriptWasModifiedAndScriptDoesNotExistWithOriginalCommandName">testInitializeShouldCreateScriptWithOriginalNameWhenScriptWasModifiedAndScriptDoesNotExistWithOriginalCommandName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT" hash-for-method="testInitializeShouldCreateScriptWithUniqueNameWhenScriptWasModifiedAndScriptAlreadyExistWithOriginalCommandName">testInitializeShouldCreateScriptWithUniqueNameWhenScriptWasModifiedAndScriptAlreadyExistWithOriginalCommandName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT" hash-for-method="testInitializeShouldNotCallScriptRepositoryWhenUserHasLatestVersion">testInitializeShouldNotCallScriptRepositoryWhenUserHasLatestVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT" hash-for-method="testInitializeShouldNotCreateScriptIfAlreadyCreatedInCurrentVersion">testInitializeShouldNotCreateScriptIfAlreadyCreatedInCurrentVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT" hash-for-method="testInitializeShouldNotThrowAnyExceptionIfInternallyExceptionOccurres">testInitializeShouldNotThrowAnyExceptionIfInternallyExceptionOccurres</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT" hash-for-method="testInitializeShouldNowThrowException">testInitializeShouldNowThrowException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT" hash-for-method="testInitializeShouldUpdateEarlierRevisionWhenItWasNotModifiedByUser">testInitializeShouldUpdateEarlierRevisionWhenItWasNotModifiedByUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT" hash-for-method="testInitializeShouldUpdateScriptWhenUserHasEarlierNotModifiedRevision">testInitializeShouldUpdateScriptWhenUserHasEarlierNotModifiedRevision</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest" hash-for-method="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ String a = /* asd&quot; */ &quot;StringContent&quot;
+}, for (int i = 0; i &lt; 10; ++i...)">testSimple(for (int i = 0; i < 10; ++i) {
+ String a = /* asd" */ "StringContent"
+}, for (int i = 0; i < 10; ++i...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest" hash-for-method="testSimple(for (int i = 0; i &lt; 10; ++i);, {i=int})">testSimple(for (int i = 0; i < 10; ++i);, {i=int})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest" hash-for-method="testSimple(Integer asd = 3;
+for (int i = 0; i &lt; 10; ++i);, {asd=Integer, i=int})">testSimple(Integer asd = 3;
+for (int i = 0; i < 10; ++i);, {asd=Integer, i=int})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest" hash-for-method="testSimple(Integer asd = 3;
+for (int i = 0; i &lt; 10; ++i) {
+String h = &quot;a&quot;;
+}, {asd=Integer, h=String, i=int})">testSimple(Integer asd = 3;
+for (int i = 0; i < 10; ++i) {
+String h = "a";
+}, {asd=Integer, h=String, i=int})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest" hash-for-method="testSimple(//for (int i = 0; i &lt; 10; ++i) {
+ System.out.println(&#039;i&#039;) /**/
+}, 
+ System.out.println() 
+})">testSimple(//for (int i = 0; i < 10; ++i) {
+ System.out.println('i') /**/
+}, 
+ System.out.println() 
+})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest" hash-for-method="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ System/*.out*/.println(i) // this
+}, for (int i = 0; i &lt; 10; ++i) {
+...)">testSimple(for (int i = 0; i < 10; ++i) {
+ System/*.out*/.println(i) // this
+}, for (int i = 0; i < 10; ++i) {
+...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest" hash-for-method="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ System.out.println(&#039;i&#039;) /**/
+}, for (int i = 0; i &lt; 10; ++i) {
+ Syst...)">testSimple(for (int i = 0; i < 10; ++i) {
+ System.out.println('i') /**/
+}, for (int i = 0; i < 10; ++i) {
+ Syst...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest" hash-for-method="testSimple(Integer asd = 3;
+for (int i = 0; i &lt; 10; ++i) {
+String h;
+}, {asd=Integer, h=String, i=int})">testSimple(Integer asd = 3;
+for (int i = 0; i < 10; ++i) {
+String h;
+}, {asd=Integer, h=String, i=int})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.InnerBlockRemoverSourceProcessorTest" hash-for-method="testSimple(int a; {
+int b; {
+   }
+}
+int b;, int a; 
+int b;)">testSimple(int a; {
+int b; {
+   }
+}
+int b;, int a; 
+int b;)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest" hash-for-method="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ System.out.println(i) // this
+}, for (int i = 0; i &lt; 10; ++i) {
+ Sys...)">testSimple(for (int i = 0; i < 10; ++i) {
+ System.out.println(i) // this
+}, for (int i = 0; i < 10; ++i) {
+ Sys...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest" hash-for-method="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ System.out.println(&#039;i&#039;) // this
+}, for (int i = 0; i &lt; 10; ++i) {
+ S...)">testSimple(for (int i = 0; i < 10; ++i) {
+ System.out.println('i') // this
+}, for (int i = 0; i < 10; ++i) {
+ S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest" hash-for-method="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ String a = /* asd&quot; */&quot;StringContent&quot;
+}, for (int i = 0; i &lt; 10; ++i)...)">testSimple(for (int i = 0; i < 10; ++i) {
+ String a = /* asd" */"StringContent"
+}, for (int i = 0; i < 10; ++i)...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest" hash-for-method="testSimple(Integer asd = 3;
+for (asd = 0; i &lt; 10; ++i);, {asd=Integer})">testSimple(Integer asd = 3;
+for (asd = 0; i < 10; ++i);, {asd=Integer})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest" hash-for-method="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ System.out.println(&quot;i&quot;) // this
+}, for (int i = 0; i &lt; 10; ++i) {
+ S...)">testSimple(for (int i = 0; i < 10; ++i) {
+ System.out.println("i") // this
+}, for (int i = 0; i < 10; ++i) {
+ S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.InnerBlockRemoverSourceProcessorTest" hash-for-method="testSimple(if () {
+  if () { asd }
+  if() {
+     a, if () {
+  if () 
+  if() {
+     a)">testSimple(if () {
+  if () { asd }
+  if() {
+     a, if () {
+  if () 
+  if() {
+     a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT" hash-for-method="testSimpleStringProgramWithExpectedResult(${currentClass.getElementName()}, mockName)">testSimpleStringProgramWithExpectedResult(${currentClass.getElementName()}, mockName)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT" hash-for-method="testSimpleStringProgramWithExpectedResult(#if (!currentClass.getElementName().equals(&quot;mockName&quot;)) {
+True
+ # } else {
+False
+#}, False
+)">testSimpleStringProgramWithExpectedResult(#if (!currentClass.getElementName().equals("mockName")) {
+True
+ # } else {
+False
+#}, False
+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT" hash-for-method="testSimpleStringProgramWithExpectedResult(test, test)">testSimpleStringProgramWithExpectedResult(test, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT" hash-for-method="testSimpleStringProgramWithExpectedResult(#result.append(&quot;hey&quot;), hey)">testSimpleStringProgramWithExpectedResult(#result.append("hey"), hey)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT" hash-for-method="testSimpleStringProgramWithExpectedResult(# for (int i = 0; i &lt; 3; ++i)
+${i}, 012)">testSimpleStringProgramWithExpectedResult(# for (int i = 0; i < 3; ++i)
+${i}, 012)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT" hash-for-method="testSimpleStringProgramWithExpectedResult(hello
+world, hello
+world)">testSimpleStringProgramWithExpectedResult(hello
+world, hello
+world)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT" hash-for-method="testSimpleStringProgramWithExpectedResult(Is it mockName: ${currentClass.getElementName().equals(&quot;mockName&quot;) ? &quot;True&quot; : &quot;False&quot; }?, Is it mock...)">testSimpleStringProgramWithExpectedResult(Is it mockName: ${currentClass.getElementName().equals("mockName") ? "True" : "False" }?, Is it mock...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT" hash-for-method="testSimpleStringProgramWithExpectedResult(# for (int i = 0; i &lt; 3; ++i) { 
+${i}
+ # }, 0
+1
+2
+)">testSimpleStringProgramWithExpectedResult(# for (int i = 0; i < 3; ++i) { 
+${i}
+ # }, 0
+1
+2
+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT" hash-for-method="testSimpleStringProgramWithExpectedResult(#String test = &quot;hey&quot;;
+ # result.append(test), hey)">testSimpleStringProgramWithExpectedResult(#String test = "hey";
+ # result.append(test), hey)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT" hash-for-method="testSimpleStringProgramWithExpectedResult(This is the ${currentClass.getElementName()} class, This is the mockName class)">testSimpleStringProgramWithExpectedResult(This is the ${currentClass.getElementName()} class, This is the mockName class)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT" hash-for-method="testSimpleStringProgramWithExpectedResult(currentClass.getElementName(), currentClass.getElementName())">testSimpleStringProgramWithExpectedResult(currentClass.getElementName(), currentClass.getElementName())</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT" hash-for-method="testSimpleStringProgramWithExpectedResult(#if (currentClass.getElementName().equals(&quot;mockName&quot;)) { 
+True
+ # }, True
+)">testSimpleStringProgramWithExpectedResult(#if (currentClass.getElementName().equals("mockName")) { 
+True
+ # }, True
+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(codeForm, codeFormatter)">testSuccesfulContentAssistAtEndOfUserTypeString(codeForm, codeFormatter)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(resu, result)">testSuccesfulContentAssistAtEndOfUserTypeString(resu, result)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(, result)">testSuccesfulContentAssistAtEndOfUserTypeString(, result)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttField)">testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttField)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(codeFormatter.form, formatCurrentCompilationUnit())">testSuccesfulContentAssistAtEndOfUserTypeString(codeFormatter.form, formatCurrentCompilationUnit())</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(result, result)">testSuccesfulContentAssistAtEndOfUserTypeString(result, result)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(result., append(String))">testSuccesfulContentAssistAtEndOfUserTypeString(result., append(String))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(SttAnnot, SttAnnotation)">testSuccesfulContentAssistAtEndOfUserTypeString(SttAnnot, SttAnnotation)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttMethod)">testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttMethod)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttAnnotation)">testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttAnnotation)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(globalConfig.S, SCRIPT_NAME)">testSuccesfulContentAssistAtEndOfUserTypeString(globalConfig.S, SCRIPT_NAME)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttType)">testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttType)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(res, result)">testSuccesfulContentAssistAtEndOfUserTypeString(res, result)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(result., getExposedName())">testSuccesfulContentAssistAtEndOfUserTypeString(result., getExposedName())</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(SttType localVariable;
+loc, localVariable)">testSuccesfulContentAssistAtEndOfUserTypeString(SttType localVariable;
+loc, localVariable)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(result.getExposedName()., toString())">testSuccesfulContentAssistAtEndOfUserTypeString(result.getExposedName()., toString())</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(globalConfig.s, SCRIPT_NAME)">testSuccesfulContentAssistAtEndOfUserTypeString(globalConfig.s, SCRIPT_NAME)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT" hash-for-method="testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttJavaProject)">testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttJavaProject)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.helospark.SparkTemplatingPlugin.integration.exportimport.ExportImportIT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExportThenImportShouldLoadSameDataAsExported">
+                  </a> <!-- testExportThenImportShouldLoadSameDataAsExported -->
+                  <span class="method-name">testExportThenImportShouldLoadSameDataAsExported</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(for (int i = 0; i &lt; 10; ++i);, {i=int})">
+                  </a> <!-- testSimple(for (int i = 0; i < 10; ++i);, {i=int}) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(for (int i = 0; i < 10; ++i);, {i=int})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(Integer asd = 3;
+for (int i = 0; i &lt; 10; ++i);, {asd=Integer, i=int})">
+                  </a> <!-- testSimple(Integer asd = 3;
+for (int i = 0; i < 10; ++i);, {asd=Integer, i=int}) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(Integer asd = 3;
+for (int i = 0; i < 10; ++i);, {asd=Integer, i=int})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(Integer asd = 3;
+for (int i = 0; i &lt; 10; ++i) {
+String h = &quot;a&quot;;
+}, {asd=Integer, h=String, i=int})">
+                  </a> <!-- testSimple(Integer asd = 3;
+for (int i = 0; i < 10; ++i) {
+String h = "a";
+}, {asd=Integer, h=String, i=int}) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(Integer asd = 3;
+for (int i = 0; i < 10; ++i) {
+String h = "a";
+}, {asd=Integer, h=String, i=int})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(Integer asd = 3;
+for (int i = 0; i &lt; 10; ++i) {
+String h;
+}, {asd=Integer, h=String, i=int})">
+                  </a> <!-- testSimple(Integer asd = 3;
+for (int i = 0; i < 10; ++i) {
+String h;
+}, {asd=Integer, h=String, i=int}) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(Integer asd = 3;
+for (int i = 0; i < 10; ++i) {
+String h;
+}, {asd=Integer, h=String, i=int})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(Integer asd = 3;
+for (asd = 0; i &lt; 10; ++i);, {asd=Integer})">
+                  </a> <!-- testSimple(Integer asd = 3;
+for (asd = 0; i < 10; ++i);, {asd=Integer}) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(Integer asd = 3;
+for (asd = 0; i < 10; ++i);, {asd=Integer})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.InnerBlockRemoverSourceProcessorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(int a; {
+int b; {
+   }
+}
+int b;, int a; 
+int b;)">
+                  </a> <!-- testSimple(int a; {
+int b; {
+   }
+}
+int b;, int a; 
+int b;) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(int a; {
+int b; {
+   }
+}
+int b;, int a; 
+int b;)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(if () {
+  if () { asd }
+  if() {
+     a, if () {
+  if () 
+  if() {
+     a)">
+                  </a> <!-- testSimple(if () {
+  if () { asd }
+  if() {
+     a, if () {
+  if () 
+  if() {
+     a) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(if () {
+  if () { asd }
+  if() {
+     a, if () {
+  if () 
+  if() {
+     a)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleStringProgramWithExpectedResult(${currentClass.getElementName()}, mockName)">
+                  </a> <!-- testSimpleStringProgramWithExpectedResult(${currentClass.getElementName()}, mockName) -->
+                  <span class="method-name">testSimpleStringProgramWithExpectedResult</span>
+                  <span class="parameters">(${currentClass.getElementName()}, mockName)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleStringProgramWithExpectedResult(#if (!currentClass.getElementName().equals(&quot;mockName&quot;)) {
+True
+ # } else {
+False
+#}, False
+)">
+                  </a> <!-- testSimpleStringProgramWithExpectedResult(#if (!currentClass.getElementName().equals("mockName")) {
+True
+ # } else {
+False
+#}, False
+) -->
+                  <span class="method-name">testSimpleStringProgramWithExpectedResult</span>
+                  <span class="parameters">(#if (!currentClass.getElementName().equals("mockName")) {
+True
+ # } else {
+False
+#}, False
+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleStringProgramWithExpectedResult(test, test)">
+                  </a> <!-- testSimpleStringProgramWithExpectedResult(test, test) -->
+                  <span class="method-name">testSimpleStringProgramWithExpectedResult</span>
+                  <span class="parameters">(test, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleStringProgramWithExpectedResult(#result.append(&quot;hey&quot;), hey)">
+                  </a> <!-- testSimpleStringProgramWithExpectedResult(#result.append("hey"), hey) -->
+                  <span class="method-name">testSimpleStringProgramWithExpectedResult</span>
+                  <span class="parameters">(#result.append("hey"), hey)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleStringProgramWithExpectedResult(# for (int i = 0; i &lt; 3; ++i)
+${i}, 012)">
+                  </a> <!-- testSimpleStringProgramWithExpectedResult(# for (int i = 0; i < 3; ++i)
+${i}, 012) -->
+                  <span class="method-name">testSimpleStringProgramWithExpectedResult</span>
+                  <span class="parameters">(# for (int i = 0; i < 3; ++i)
+${i}, 012)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleStringProgramWithExpectedResult(hello
+world, hello
+world)">
+                  </a> <!-- testSimpleStringProgramWithExpectedResult(hello
+world, hello
+world) -->
+                  <span class="method-name">testSimpleStringProgramWithExpectedResult</span>
+                  <span class="parameters">(hello
+world, hello
+world)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleStringProgramWithExpectedResult(Is it mockName: ${currentClass.getElementName().equals(&quot;mockName&quot;) ? &quot;True&quot; : &quot;False&quot; }?, Is it mock...)">
+                  </a> <!-- testSimpleStringProgramWithExpectedResult(Is it mockName: ${currentClass.getElementName().equals("mockName") ? "True" : "False" }?, Is it mock...) -->
+                  <span class="method-name">testSimpleStringProgramWithExpectedResult</span>
+                  <span class="parameters">(Is it mockName: ${currentClass.getElementName().equals("mockName") ? "True" : "False" }?, Is it mockName: True?)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleStringProgramWithExpectedResult(# for (int i = 0; i &lt; 3; ++i) { 
+${i}
+ # }, 0
+1
+2
+)">
+                  </a> <!-- testSimpleStringProgramWithExpectedResult(# for (int i = 0; i < 3; ++i) { 
+${i}
+ # }, 0
+1
+2
+) -->
+                  <span class="method-name">testSimpleStringProgramWithExpectedResult</span>
+                  <span class="parameters">(# for (int i = 0; i < 3; ++i) { 
+${i}
+ # }, 0
+1
+2
+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleStringProgramWithExpectedResult(#String test = &quot;hey&quot;;
+ # result.append(test), hey)">
+                  </a> <!-- testSimpleStringProgramWithExpectedResult(#String test = "hey";
+ # result.append(test), hey) -->
+                  <span class="method-name">testSimpleStringProgramWithExpectedResult</span>
+                  <span class="parameters">(#String test = "hey";
+ # result.append(test), hey)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleStringProgramWithExpectedResult(This is the ${currentClass.getElementName()} class, This is the mockName class)">
+                  </a> <!-- testSimpleStringProgramWithExpectedResult(This is the ${currentClass.getElementName()} class, This is the mockName class) -->
+                  <span class="method-name">testSimpleStringProgramWithExpectedResult</span>
+                  <span class="parameters">(This is the ${currentClass.getElementName()} class, This is the mockName class)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleStringProgramWithExpectedResult(currentClass.getElementName(), currentClass.getElementName())">
+                  </a> <!-- testSimpleStringProgramWithExpectedResult(currentClass.getElementName(), currentClass.getElementName()) -->
+                  <span class="method-name">testSimpleStringProgramWithExpectedResult</span>
+                  <span class="parameters">(currentClass.getElementName(), currentClass.getElementName())</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleStringProgramWithExpectedResult(#if (currentClass.getElementName().equals(&quot;mockName&quot;)) { 
+True
+ # }, True
+)">
+                  </a> <!-- testSimpleStringProgramWithExpectedResult(#if (currentClass.getElementName().equals("mockName")) { 
+True
+ # }, True
+) -->
+                  <span class="method-name">testSimpleStringProgramWithExpectedResult</span>
+                  <span class="parameters">(#if (currentClass.getElementName().equals("mockName")) { 
+True
+ # }, True
+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.helospark.SparkTemplatingPlugin.integration.dicontainer.DiContainerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDiContainerInitializeShouldNotThrowAnyExceptions">
+                  </a> <!-- testDiContainerInitializeShouldNotThrowAnyExceptions -->
+                  <span class="method-name">testDiContainerInitializeShouldNotThrowAnyExceptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitializeShouldCreateScriptIfDidNotExistEarlier">
+                  </a> <!-- testInitializeShouldCreateScriptIfDidNotExistEarlier -->
+                  <span class="method-name">testInitializeShouldCreateScriptIfDidNotExistEarlier</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitializeShouldCreateScriptWithOriginalNameWhenScriptWasModifiedAndScriptDoesNotExistWithOriginalCommandName">
+                  </a> <!-- testInitializeShouldCreateScriptWithOriginalNameWhenScriptWasModifiedAndScriptDoesNotExistWithOriginalCommandName -->
+                  <span class="method-name">testInitializeShouldCreateScriptWithOriginalNameWhenScriptWasModifiedAndScriptDoesNotExistWithOriginalCommandName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitializeShouldCreateScriptWithUniqueNameWhenScriptWasModifiedAndScriptAlreadyExistWithOriginalCommandName">
+                  </a> <!-- testInitializeShouldCreateScriptWithUniqueNameWhenScriptWasModifiedAndScriptAlreadyExistWithOriginalCommandName -->
+                  <span class="method-name">testInitializeShouldCreateScriptWithUniqueNameWhenScriptWasModifiedAndScriptAlreadyExistWithOriginalCommandName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitializeShouldNotCallScriptRepositoryWhenUserHasLatestVersion">
+                  </a> <!-- testInitializeShouldNotCallScriptRepositoryWhenUserHasLatestVersion -->
+                  <span class="method-name">testInitializeShouldNotCallScriptRepositoryWhenUserHasLatestVersion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitializeShouldNotCreateScriptIfAlreadyCreatedInCurrentVersion">
+                  </a> <!-- testInitializeShouldNotCreateScriptIfAlreadyCreatedInCurrentVersion -->
+                  <span class="method-name">testInitializeShouldNotCreateScriptIfAlreadyCreatedInCurrentVersion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitializeShouldNotThrowAnyExceptionIfInternallyExceptionOccurres">
+                  </a> <!-- testInitializeShouldNotThrowAnyExceptionIfInternallyExceptionOccurres -->
+                  <span class="method-name">testInitializeShouldNotThrowAnyExceptionIfInternallyExceptionOccurres</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitializeShouldNowThrowException">
+                  </a> <!-- testInitializeShouldNowThrowException -->
+                  <span class="method-name">testInitializeShouldNowThrowException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitializeShouldUpdateEarlierRevisionWhenItWasNotModifiedByUser">
+                  </a> <!-- testInitializeShouldUpdateEarlierRevisionWhenItWasNotModifiedByUser -->
+                  <span class="method-name">testInitializeShouldUpdateEarlierRevisionWhenItWasNotModifiedByUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitializeShouldUpdateScriptWhenUserHasEarlierNotModifiedRevision">
+                  </a> <!-- testInitializeShouldUpdateScriptWhenUserHasEarlierNotModifiedRevision -->
+                  <span class="method-name">testInitializeShouldUpdateScriptWhenUserHasEarlierNotModifiedRevision</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(., getClass())">
+                  </a> <!-- testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(., getClass()) -->
+                  <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</span>
+                  <span class="parameters">(., getClass())</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(resu, SttAnnotation)">
+                  </a> <!-- testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(resu, SttAnnotation) -->
+                  <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</span>
+                  <span class="parameters">(resu, SttAnnotation)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion({
+SttType localVariable;
+}
+loc, localVariable)">
+                  </a> <!-- testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion({
+SttType localVariable;
+}
+loc, localVariable) -->
+                  <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</span>
+                  <span class="parameters">({
+SttType localVariable;
+}
+loc, localVariable)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(result., SttAnnotation)">
+                  </a> <!-- testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(result., SttAnnotation) -->
+                  <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</span>
+                  <span class="parameters">(result., SttAnnotation)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(ra, result)">
+                  </a> <!-- testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(ra, result) -->
+                  <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</span>
+                  <span class="parameters">(ra, result)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(result., result)">
+                  </a> <!-- testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(result., result) -->
+                  <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</span>
+                  <span class="parameters">(result., result)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(, getClass())">
+                  </a> <!-- testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(, getClass()) -->
+                  <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</span>
+                  <span class="parameters">(, getClass())</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(Stt, result)">
+                  </a> <!-- testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(Stt, result) -->
+                  <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion</span>
+                  <span class="parameters">(Stt, result)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(codeForm, codeFormatter)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(codeForm, codeFormatter) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(codeForm, codeFormatter)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(resu, result)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(resu, result) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(resu, result)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(, result)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(, result) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(, result)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttField)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttField) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(Stt, SttField)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(codeFormatter.form, formatCurrentCompilationUnit())">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(codeFormatter.form, formatCurrentCompilationUnit()) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(codeFormatter.form, formatCurrentCompilationUnit())</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(result, result)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(result, result) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(result, result)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(result., append(String))">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(result., append(String)) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(result., append(String))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(SttAnnot, SttAnnotation)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(SttAnnot, SttAnnotation) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(SttAnnot, SttAnnotation)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttMethod)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttMethod) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(Stt, SttMethod)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttAnnotation)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttAnnotation) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(Stt, SttAnnotation)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(globalConfig.S, SCRIPT_NAME)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(globalConfig.S, SCRIPT_NAME) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(globalConfig.S, SCRIPT_NAME)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttType)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttType) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(Stt, SttType)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(res, result)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(res, result) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(res, result)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(result., getExposedName())">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(result., getExposedName()) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(result., getExposedName())</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(SttType localVariable;
+loc, localVariable)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(SttType localVariable;
+loc, localVariable) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(SttType localVariable;
+loc, localVariable)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(result.getExposedName()., toString())">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(result.getExposedName()., toString()) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(result.getExposedName()., toString())</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(globalConfig.s, SCRIPT_NAME)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(globalConfig.s, SCRIPT_NAME) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(globalConfig.s, SCRIPT_NAME)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttJavaProject)">
+                  </a> <!-- testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttJavaProject) -->
+                  <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString</span>
+                  <span class="parameters">(Stt, SttJavaProject)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.helospark.SparkTemplatingPlugin.integration.execution.GetterGeneratorExecutionIT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateShouldGenerateExpectedResult">
+                  </a> <!-- testGenerateShouldGenerateExpectedResult -->
+                  <span class="method-name">testGenerateShouldGenerateExpectedResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ String a = /* asd&quot; */ &quot;StringContent&quot;
+}, for (int i = 0; i &lt; 10; ++i...)">
+                  </a> <!-- testSimple(for (int i = 0; i < 10; ++i) {
+ String a = /* asd" */ "StringContent"
+}, for (int i = 0; i < 10; ++i...) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(for (int i = 0; i < 10; ++i) {
+ String a = /* asd" */ "StringContent"
+}, for (int i = 0; i < 10; ++i) {
+ String a =  
+})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(//for (int i = 0; i &lt; 10; ++i) {
+ System.out.println(&#039;i&#039;) /**/
+}, 
+ System.out.println() 
+})">
+                  </a> <!-- testSimple(//for (int i = 0; i < 10; ++i) {
+ System.out.println('i') /**/
+}, 
+ System.out.println() 
+}) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(//for (int i = 0; i < 10; ++i) {
+ System.out.println('i') /**/
+}, 
+ System.out.println() 
+})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ System/*.out*/.println(i) // this
+}, for (int i = 0; i &lt; 10; ++i) {
+...)">
+                  </a> <!-- testSimple(for (int i = 0; i < 10; ++i) {
+ System/*.out*/.println(i) // this
+}, for (int i = 0; i < 10; ++i) {
+...) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(for (int i = 0; i < 10; ++i) {
+ System/*.out*/.println(i) // this
+}, for (int i = 0; i < 10; ++i) {
+ System.println(i) 
+})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ System.out.println(&#039;i&#039;) /**/
+}, for (int i = 0; i &lt; 10; ++i) {
+ Syst...)">
+                  </a> <!-- testSimple(for (int i = 0; i < 10; ++i) {
+ System.out.println('i') /**/
+}, for (int i = 0; i < 10; ++i) {
+ Syst...) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(for (int i = 0; i < 10; ++i) {
+ System.out.println('i') /**/
+}, for (int i = 0; i < 10; ++i) {
+ System.out.println() 
+})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ System.out.println(i) // this
+}, for (int i = 0; i &lt; 10; ++i) {
+ Sys...)">
+                  </a> <!-- testSimple(for (int i = 0; i < 10; ++i) {
+ System.out.println(i) // this
+}, for (int i = 0; i < 10; ++i) {
+ Sys...) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(for (int i = 0; i < 10; ++i) {
+ System.out.println(i) // this
+}, for (int i = 0; i < 10; ++i) {
+ System.out.println(i) 
+})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ System.out.println(&#039;i&#039;) // this
+}, for (int i = 0; i &lt; 10; ++i) {
+ S...)">
+                  </a> <!-- testSimple(for (int i = 0; i < 10; ++i) {
+ System.out.println('i') // this
+}, for (int i = 0; i < 10; ++i) {
+ S...) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(for (int i = 0; i < 10; ++i) {
+ System.out.println('i') // this
+}, for (int i = 0; i < 10; ++i) {
+ System.out.println() 
+})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ String a = /* asd&quot; */&quot;StringContent&quot;
+}, for (int i = 0; i &lt; 10; ++i)...)">
+                  </a> <!-- testSimple(for (int i = 0; i < 10; ++i) {
+ String a = /* asd" */"StringContent"
+}, for (int i = 0; i < 10; ++i)...) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(for (int i = 0; i < 10; ++i) {
+ String a = /* asd" */"StringContent"
+}, for (int i = 0; i < 10; ++i) {
+ String a = 
+})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple(for (int i = 0; i &lt; 10; ++i) {
+ System.out.println(&quot;i&quot;) // this
+}, for (int i = 0; i &lt; 10; ++i) {
+ S...)">
+                  </a> <!-- testSimple(for (int i = 0; i < 10; ++i) {
+ System.out.println("i") // this
+}, for (int i = 0; i < 10; ++i) {
+ S...) -->
+                  <span class="method-name">testSimple</span>
+                  <span class="parameters">(for (int i = 0; i < 10; ++i) {
+ System.out.println("i") // this
+}, for (int i = 0; i < 10; ++i) {
+ System.out.println() 
+})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/tmp/testng-eclipse--12497485/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.helospark.SparkTemplatingPlugin.integration.completition.support.StringBackedTestIDocument&quot;/&gt;
+      &lt;class name=&quot;com.helospark.SparkTemplatingPlugin.integration.execution.GetterGeneratorExecutionIT&quot;/&gt;
+      &lt;class name=&quot;com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.InnerBlockRemoverSourceProcessorTest&quot;/&gt;
+      &lt;class name=&quot;com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT&quot;/&gt;
+      &lt;class name=&quot;com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT&quot;/&gt;
+      &lt;class name=&quot;com.helospark.SparkTemplatingPlugin.integration.execution.ExecutionITSetup&quot;/&gt;
+      &lt;class name=&quot;com.helospark.SparkTemplatingPlugin.integration.dicontainer.DiContainerTest&quot;/&gt;
+      &lt;class name=&quot;com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest&quot;/&gt;
+      &lt;class name=&quot;com.helospark.SparkTemplatingPlugin.integration.exportimport.ExportImportIT&quot;/&gt;
+      &lt;class name=&quot;com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT&quot;/&gt;
+      &lt;class name=&quot;com.helospark.SparkTemplatingPlugin.integration.execution.support.BufferBackedTestTemplatingResult&quot;/&gt;
+      &lt;class name=&quot;com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (12 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(65);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion')
+data.setCell(0, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(0, 3, 8240);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGenerateShouldGenerateExpectedResult')
+data.setCell(1, 2, 'com.helospark.SparkTemplatingPlugin.integration.execution.GetterGeneratorExecutionIT')
+data.setCell(1, 3, 1718);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testExportThenImportShouldLoadSameDataAsExported')
+data.setCell(2, 2, 'com.helospark.SparkTemplatingPlugin.integration.exportimport.ExportImportIT')
+data.setCell(2, 3, 352);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSimpleStringProgramWithExpectedResult')
+data.setCell(3, 2, 'com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT')
+data.setCell(3, 3, 195);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSimpleStringProgramWithExpectedResult')
+data.setCell(4, 2, 'com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT')
+data.setCell(4, 3, 134);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSimpleStringProgramWithExpectedResult')
+data.setCell(5, 2, 'com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT')
+data.setCell(5, 3, 84);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSimpleStringProgramWithExpectedResult')
+data.setCell(6, 2, 'com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT')
+data.setCell(6, 3, 61);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion')
+data.setCell(7, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(7, 3, 55);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSimpleStringProgramWithExpectedResult')
+data.setCell(8, 2, 'com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT')
+data.setCell(8, 3, 45);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testSimpleStringProgramWithExpectedResult')
+data.setCell(9, 2, 'com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT')
+data.setCell(9, 3, 42);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSimpleStringProgramWithExpectedResult')
+data.setCell(10, 2, 'com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT')
+data.setCell(10, 3, 41);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testSimpleStringProgramWithExpectedResult')
+data.setCell(11, 2, 'com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT')
+data.setCell(11, 3, 40);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSimpleStringProgramWithExpectedResult')
+data.setCell(12, 2, 'com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT')
+data.setCell(12, 3, 37);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(13, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(13, 3, 34);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion')
+data.setCell(14, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(14, 3, 31);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testInitializeShouldNotThrowAnyExceptionIfInternallyExceptionOccurres')
+data.setCell(15, 2, 'com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT')
+data.setCell(15, 3, 30);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(16, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(16, 3, 23);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSimpleStringProgramWithExpectedResult')
+data.setCell(17, 2, 'com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT')
+data.setCell(17, 3, 22);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testSimple')
+data.setCell(18, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.InnerBlockRemoverSourceProcessorTest')
+data.setCell(18, 3, 21);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testSimple')
+data.setCell(19, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest')
+data.setCell(19, 3, 20);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testSimpleStringProgramWithExpectedResult')
+data.setCell(20, 2, 'com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT')
+data.setCell(20, 3, 18);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testInitializeShouldNowThrowException')
+data.setCell(21, 2, 'com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT')
+data.setCell(21, 3, 18);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testSimpleStringProgramWithExpectedResult')
+data.setCell(22, 2, 'com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT')
+data.setCell(22, 3, 18);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testSimple')
+data.setCell(23, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.InnerBlockRemoverSourceProcessorTest')
+data.setCell(23, 3, 15);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(24, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(24, 3, 14);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testSimple')
+data.setCell(25, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest')
+data.setCell(25, 3, 11);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testInitializeShouldUpdateEarlierRevisionWhenItWasNotModifiedByUser')
+data.setCell(26, 2, 'com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT')
+data.setCell(26, 3, 11);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(27, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(27, 3, 11);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(28, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(28, 3, 9);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(29, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(29, 3, 8);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testDiContainerInitializeShouldNotThrowAnyExceptions')
+data.setCell(30, 2, 'com.helospark.SparkTemplatingPlugin.integration.dicontainer.DiContainerTest')
+data.setCell(30, 3, 8);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion')
+data.setCell(31, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(31, 3, 8);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testInitializeShouldCreateScriptIfDidNotExistEarlier')
+data.setCell(32, 2, 'com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT')
+data.setCell(32, 3, 8);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testInitializeShouldCreateScriptWithOriginalNameWhenScriptWasModifiedAndScriptDoesNotExistWithOriginalCommandName')
+data.setCell(33, 2, 'com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT')
+data.setCell(33, 3, 7);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(34, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(34, 3, 6);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(35, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(35, 3, 6);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testSimple')
+data.setCell(36, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest')
+data.setCell(36, 3, 5);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion')
+data.setCell(37, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(37, 3, 5);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(38, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(38, 3, 5);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testInitializeShouldCreateScriptWithUniqueNameWhenScriptWasModifiedAndScriptAlreadyExistWithOriginalCommandName')
+data.setCell(39, 2, 'com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT')
+data.setCell(39, 3, 5);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion')
+data.setCell(40, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(40, 3, 5);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testSimple')
+data.setCell(41, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest')
+data.setCell(41, 3, 5);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testInitializeShouldNotCallScriptRepositoryWhenUserHasLatestVersion')
+data.setCell(42, 2, 'com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT')
+data.setCell(42, 3, 5);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(43, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(43, 3, 5);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testSimple')
+data.setCell(44, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest')
+data.setCell(44, 3, 4);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testSimple')
+data.setCell(45, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest')
+data.setCell(45, 3, 4);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(46, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(46, 3, 4);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(47, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(47, 3, 4);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(48, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(48, 3, 4);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion')
+data.setCell(49, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(49, 3, 4);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(50, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(50, 3, 4);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(51, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(51, 3, 4);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(52, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(52, 3, 4);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion')
+data.setCell(53, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(53, 3, 4);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testSimple')
+data.setCell(54, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest')
+data.setCell(54, 3, 3);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(55, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(55, 3, 3);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testSimple')
+data.setCell(56, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest')
+data.setCell(56, 3, 3);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testSimple')
+data.setCell(57, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest')
+data.setCell(57, 3, 3);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testSimple')
+data.setCell(58, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest')
+data.setCell(58, 3, 3);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testSuccesfulContentAssistAtEndOfUserTypeString')
+data.setCell(59, 2, 'com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT')
+data.setCell(59, 3, 3);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'testInitializeShouldNotCreateScriptIfAlreadyCreatedInCurrentVersion')
+data.setCell(60, 2, 'com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT')
+data.setCell(60, 3, 3);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'testSimple')
+data.setCell(61, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest')
+data.setCell(61, 3, 3);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'testSimple')
+data.setCell(62, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest')
+data.setCell(62, 3, 3);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'testInitializeShouldUpdateScriptWhenUserHasEarlierNotModifiedRevision')
+data.setCell(63, 2, 'com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT')
+data.setCell(63, 3, 2);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'testSimple')
+data.setCell(64, 2, 'com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest')
+data.setCell(64, 3, 2);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.helospark.SparkTemplatingPlugin.integration.execution.GetterGeneratorExecutionIT</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">6877 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGenerateShouldGenerateExpectedResult</span>
+                <span class="method-start">7897 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.helospark.SparkTemplatingPlugin.integration.dicontainer.DiContainerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDiContainerInitializeShouldNotThrowAnyExceptions</span>
+                <span class="method-start">9620 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.RegexMatchingLocalVariableExtractorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(for (int i = 0; i < 10; ++i);, {i=int})</span>
+                <span class="method-start">9753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9769 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(Integer asd = 3;
+for (asd = 0; i < 10; ++i);, {asd=Integer})</span>
+                <span class="method-start">9770 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9779 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(Integer asd = 3;
+for (int i = 0; i < 10; ++i);, {asd=Integer, i=int})</span>
+                <span class="method-start">9780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(Integer asd = 3;
+for (int i = 0; i < 10; ++i) {
+String h = "a";
+}, {asd=Integer, h=String, i=int})</span>
+                <span class="method-start">9788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(Integer asd = 3;
+for (int i = 0; i < 10; ++i) {
+String h;
+}, {asd=Integer, h=String, i=int})</span>
+                <span class="method-start">9798 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.InnerBlockRemoverSourceProcessorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9828 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(if () {
+  if () { asd }
+  if() {
+     a, if () {
+  if () 
+  if() {
+     a)</span>
+                <span class="method-start">9828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9848 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(int a; {
+int b; {
+   }
+}
+int b;, int a; 
+int b;)</span>
+                <span class="method-start">9848 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.helospark.sparktemplatingplugin.ui.editor.completition.chain.sourceprocessor.NoSourceCleaningSourceProcessorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(for (int i = 0; i < 10; ++i) {
+ System.out.println(i) // this
+}, for (int i = 0; i < 10; ++i) {
+ Sys...)</span>
+                <span class="method-start">9873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(for (int i = 0; i < 10; ++i) {
+ System/*.out*/.println(i) // this
+}, for (int i = 0; i < 10; ++i) {
+...)</span>
+                <span class="method-start">9879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(for (int i = 0; i < 10; ++i) {
+ System.out.println("i") // this
+}, for (int i = 0; i < 10; ++i) {
+ S...)</span>
+                <span class="method-start">9886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(for (int i = 0; i < 10; ++i) {
+ System.out.println('i') // this
+}, for (int i = 0; i < 10; ++i) {
+ S...)</span>
+                <span class="method-start">9892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(for (int i = 0; i < 10; ++i) {
+ System.out.println('i') /**/
+}, for (int i = 0; i < 10; ++i) {
+ Syst...)</span>
+                <span class="method-start">9899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(//for (int i = 0; i < 10; ++i) {
+ System.out.println('i') /**/
+}, 
+ System.out.println() 
+})</span>
+                <span class="method-start">9905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9912 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(for (int i = 0; i < 10; ++i) {
+ String a = /* asd" */ "StringContent"
+}, for (int i = 0; i < 10; ++i...)</span>
+                <span class="method-start">9912 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9918 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimple(for (int i = 0; i < 10; ++i) {
+ String a = /* asd" */"StringContent"
+}, for (int i = 0; i < 10; ++i)...)</span>
+                <span class="method-start">9919 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.helospark.SparkTemplatingPlugin.integration.execution.SimpleInlineProgramExecutionIT</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">9927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimpleStringProgramWithExpectedResult(test, test)</span>
+                <span class="method-start">9939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">9961 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimpleStringProgramWithExpectedResult(hello
+world, hello
+world)</span>
+                <span class="method-start">9976 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10020 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimpleStringProgramWithExpectedResult(# for (int i = 0; i < 3; ++i)
+${i}, 012)</span>
+                <span class="method-start">10050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimpleStringProgramWithExpectedResult(# for (int i = 0; i < 3; ++i) { 
+${i}
+ # }, 0
+1
+2
+)</span>
+                <span class="method-start">10306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10397 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimpleStringProgramWithExpectedResult(${currentClass.getElementName()}, mockName)</span>
+                <span class="method-start">10412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimpleStringProgramWithExpectedResult(currentClass.getElementName(), currentClass.getElementName())</span>
+                <span class="method-start">10481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimpleStringProgramWithExpectedResult(#result.append("hey"), hey)</span>
+                <span class="method-start">10548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimpleStringProgramWithExpectedResult(#String test = "hey";
+ # result.append(test), hey)</span>
+                <span class="method-start">10606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10743 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimpleStringProgramWithExpectedResult(This is the ${currentClass.getElementName()} class, This is the mockName class)</span>
+                <span class="method-start">10767 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10791 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimpleStringProgramWithExpectedResult(#if (currentClass.getElementName().equals("mockName")) { 
+True
+ # }, True
+)</span>
+                <span class="method-start">10799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimpleStringProgramWithExpectedResult(#if (!currentClass.getElementName().equals("mockName")) {
+True
+ # } else {
+False
+#}, False
+)</span>
+                <span class="method-start">10844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10887 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSimpleStringProgramWithExpectedResult(Is it mockName: ${currentClass.getElementName().equals("mockName") ? "True" : "False" }?, Is it mock...)</span>
+                <span class="method-start">10895 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.helospark.SparkTemplatingPlugin.integration.exportimport.ExportImportIT</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testExportThenImportShouldLoadSameDataAsExported</span>
+                <span class="method-start">11147 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.helospark.SparkTemplatingPlugin.integration.examplescript.ExampleScriptInitializationIT</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInitializeShouldCreateScriptIfDidNotExistEarlier</span>
+                <span class="method-start">11624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11638 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInitializeShouldCreateScriptWithOriginalNameWhenScriptWasModifiedAndScriptDoesNotExistWithOriginalCommandName</span>
+                <span class="method-start">11647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11656 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInitializeShouldCreateScriptWithUniqueNameWhenScriptWasModifiedAndScriptAlreadyExistWithOriginalCommandName</span>
+                <span class="method-start">11662 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInitializeShouldNotCallScriptRepositoryWhenUserHasLatestVersion</span>
+                <span class="method-start">11674 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInitializeShouldNotCreateScriptIfAlreadyCreatedInCurrentVersion</span>
+                <span class="method-start">11687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInitializeShouldNotThrowAnyExceptionIfInternallyExceptionOccurres</span>
+                <span class="method-start">11698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11731 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInitializeShouldNowThrowException</span>
+                <span class="method-start">11739 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInitializeShouldUpdateEarlierRevisionWhenItWasNotModifiedByUser</span>
+                <span class="method-start">11776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInitializeShouldUpdateScriptWhenUserHasEarlierNotModifiedRevision</span>
+                <span class="method-start">11799 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.helospark.SparkTemplatingPlugin.integration.completition.ContentAssistIT</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(resu, SttAnnotation)</span>
+                <span class="method-start">11802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(ra, result)</span>
+                <span class="method-start">20043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(Stt, result)</span>
+                <span class="method-start">20053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(result., result)</span>
+                <span class="method-start">20086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(result., SttAnnotation)</span>
+                <span class="method-start">20143 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(, getClass())</span>
+                <span class="method-start">20150 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion(., getClass())</span>
+                <span class="method-start">20156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFailedContentAssistAtEndOfUserTypeStringShouldNotShowGivenSuggestion({
+SttType localVariable;
+}
+loc, localVariable)</span>
+                <span class="method-start">20164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(, result)</span>
+                <span class="method-start">20171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(resu, result)</span>
+                <span class="method-start">20177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(SttAnnot, SttAnnotation)</span>
+                <span class="method-start">20182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(res, result)</span>
+                <span class="method-start">20190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(result, result)</span>
+                <span class="method-start">20197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttAnnotation)</span>
+                <span class="method-start">20203 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttType)</span>
+                <span class="method-start">20210 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttMethod)</span>
+                <span class="method-start">20216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttJavaProject)</span>
+                <span class="method-start">20222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(Stt, SttField)</span>
+                <span class="method-start">20259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(result., getExposedName())</span>
+                <span class="method-start">20299 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(result., append(String))</span>
+                <span class="method-start">20327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(result.getExposedName()., toString())</span>
+                <span class="method-start">20343 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(globalConfig.S, SCRIPT_NAME)</span>
+                <span class="method-start">20374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(globalConfig.s, SCRIPT_NAME)</span>
+                <span class="method-start">20396 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(codeForm, codeFormatter)</span>
+                <span class="method-start">20410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(codeFormatter.form, formatCurrentCompilationUnit())</span>
+                <span class="method-start">20425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulContentAssistAtEndOfUserTypeString(SttType localVariable;
+loc, localVariable)</span>
+                <span class="method-start">20431 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
